@@ -1,0 +1,23 @@
+<ion-header [translucent]="true">
+</ion-header>
+
+<ion-content [fullscreen]="true" position="center">
+
+  <ion-img size="large" src="https://i.ibb.co/Jc78cVX/gencligin-nabzi.png"></ion-img>
+ 
+  <ion-item position="center">
+    <ion-label position="floating"><center>E-mail giriniz :</center></ion-label>
+    <ion-input></ion-input>
+  </ion-item>
+
+    <ion-item>
+      <ion-label position="floating"><center>Şifre giriniz :</center></ion-label>
+      <ion-input></ion-input>
+    </ion-item>
+
+    <ion-button expand="block"><a [routerLink]="['/kayit']" routerLinkActive="active"></a>Kayıt Ol</ion-button>
+    <ion-button expand="block" color="success">Giriş</ion-button>
+
+    <ion-button position="center" color="primary">Şifremi Unuttum</ion-button>
+</ion-content>
+  
